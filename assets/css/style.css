@@ -1679,3 +1679,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.school-image {
+  max-height: 45%;
+}
