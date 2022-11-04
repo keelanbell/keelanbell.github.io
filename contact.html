@@ -111,18 +111,18 @@
               <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/xeqdpbej"
                 method="post">
                 <fieldset id="fs-frm-inputs">
-                  <label for="full-name">Full Name</label>
-                  <input type="text" name="name" id="full-name" placeholder="First & Last, please." required="">
-                  <label for="email-address">Email Address</label>
-                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain" required="">
-                  <label for="telephone">Telephone Number (Optional)</label>
-                  <input type="telephone" name="telephone" id="telephone" placeholder="(123) 456-7890">
-                  <label for="message">Message</label>
-                  <textarea rows="6" name="message" id="message" placeholder="Write your message here."
+                  <label class="form-label" for="full-name">Full Name</label>
+                  <input class="form-control" type="text" name="name" id="full-name" placeholder="First & Last, please." required="">
+                  <label class="form-label" for="email-address">Email Address</label>
+                  <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain" required="">
+                  <label class="form-label" for="telephone">Telephone Number (Optional)</label>
+                  <input class="form-control" type="telephone" name="telephone" id="telephone" placeholder="(123) 456-7890">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea class="form-control" rows="6" name="message" id="message" placeholder="Write your message here."
                     required=""></textarea>
                   <input type="hidden" name="_subject" id="email-subject" value="Message Submission">
                 </fieldset>
-                <input type="submit" value="Send">
+                <input class="btn btn-primary" type="submit" value="Send">
               </form>
             </div>
           </div>
